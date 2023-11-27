@@ -1,0 +1,9 @@
+.form {
+    position: relative;
+}
+
+.form .content {
+    text-align: center;
+    margin: 70px auto;
+}
+

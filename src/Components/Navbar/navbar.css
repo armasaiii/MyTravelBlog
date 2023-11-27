@@ -1,0 +1,38 @@
+.navbar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-size: 2.5em;
+  color: var(--white);
+  padding: 0px 20px;
+}
+
+.navbar-nav {
+  padding: 0px 10px;
+}
+
+.nav-link {
+  color: var(--white);
+  margin-left: 2px;
+}
+
+.nav-link:hover {
+  color: var(--main);
+}
+
+.nav-link::after {
+  content: "";
+  background: var(--main);
+  height: 2px;
+  width: 0px;
+  display: block;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 40px;
+}

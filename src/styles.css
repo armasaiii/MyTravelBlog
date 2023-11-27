@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --main: red;
+  --black: black;
+  --white: white;
+  --font-family: "Besley", sans-serif;
+}
+
+* ::selection {
+  background: var(--main);
+  color: var(--white);
+}
+
+* {
+  font-family: var(--font-family);
+  transition: 0.3s;
+}
